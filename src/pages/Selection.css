@@ -1,0 +1,33 @@
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.left-section, .right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: #61dafb;
+  color: #282c34;
+  cursor: pointer;
+}
